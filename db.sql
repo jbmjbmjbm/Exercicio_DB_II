@@ -63,7 +63,7 @@ select nome_alunos, nome_disciplina
  
  
  
- /*---Union---*/
+ ---Union-
   select nome_alunos, nome_disciplina
  from
  alunos left join disciplinas
