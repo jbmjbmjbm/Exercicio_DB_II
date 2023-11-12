@@ -62,6 +62,8 @@ select nome_alunos, nome_disciplina
  on disciplinas.id_disciplina = alunos.disciplinas_id;
  
 
+-- Criando uma trigger
+
 create trigger inserir_nome
 after insert
 on alunos for each row
